@@ -13,5 +13,5 @@ for x in range (1, x+1):
         print('buzz')
     else:
         print(x)
-    s.write(x)
-    s.close()
+    s.write((int)x)
+s.close()
